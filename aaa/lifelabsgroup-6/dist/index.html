@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - LIFELABS - GROUP 6</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+  <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Lifelabs - Group 6</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i> Home
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i> Streaming
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i> Types and Platforms
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i> Need of Viewers
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i> Viewer Analysis
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i> About Us
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__btns">
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+
+            <a href="https://www.twitch.tv/" target="_blank" class="home__social-icon">
+              <i class="fa fa-twitch" style="font-size:28px"></i>
+            </a>
+
+            <a href="https://www.facebook.com/gaming/" target="_blank" class="home__social-icon">
+              <span class="iconify" data-icon="mdi:facebook" style="font-size:30px"></span>
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank" class="home__social-icon">
+              <i class="fa fa-youtube-play" style="font-size:28px"></i>
+            </a>
+          </div>
+
+          <div class="home__img">
+            <svg class="home__blob-img" width="305" height="288" viewBox="0 0 305 288" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M141.282 0.0692367C211.192 -1.83127 280.706 35.4793 300.683 101.475C319.518 163.7 273.845 221.706 219.506 258.49C170.219 291.853 106.126 300.31 57.3972 266.161C7.26383 231.029 -11.3943 167.329 6.84802 109.463C25.9015 49.0226 77.0363 1.81576 141.282 0.0692367Z" fill="url(#pattern0)" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M141.282 0.0692367C211.192 -1.83127 280.706 35.4793 300.683 101.475C319.518 163.7 273.845 221.706 219.506 258.49C170.219 291.853 106.126 300.31 57.3972 266.161C7.26383 231.029 -11.3943 167.329 6.84802 109.463C25.9015 49.0226 77.0363 1.81576 141.282 0.0692367Z" fill="#FF8CF4" fill-opacity="0.15" />
+              <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image0" transform="translate(0 -0.0282561) scale(0.0023753 0.00251551)" />
+                </pattern>
+                <image id="image0" width="620" height="420" xlink:href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/streaming-services-guide-1618259319.jpg?resize=980:*" />
+              </defs>
+            </svg>
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">Finding a Need in Streaming</h1>
+            <h3 class="home__subtitle">Gaming Category</h3>
+            <p class="home__description"> Why do people watch gaming streams? What are their needs?</p>
+
+          </div>
+        </div>
+
+        <div vlass="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <h2 class="section__title">Game Streaming</h2>
+      <span class="section__subtitle">What exactly is it? </span>
+
+      <div class="about__container container grid">
+        <img class="home__img" src="https://scontent.fmnl13-1.fna.fbcdn.net/v/t1.15752-9/246595120_250393603715542_2736454810299512832_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=8aIJMm_OvOMAX-EdIBz&_nc_ht=scontent.fmnl13-1.fna&oh=6f6889b9e3b94868642fc4b411c4e4c2&oe=6192E35E">
+
+        <div class="about-data">
+          <p class="about__description">
+            Streaming is being the transfer of data (such as audio or video material) in a continuous stream especially for immediate processing or playback without the need to download it first. Game streaming is transmitting the screen of a video game along with a video of the player to a live audience.
+
+          <p> <b><i>Where can we listen or watch streams?</i></b> </p>
+
+          </p>
+
+          <div class="about__info">
+
+            <div>
+              <span class="about__info-title">Webites </span>
+              <span class="about__info-name">Public &<br> Accessible</span>
+            </div>
+
+            <div>
+              <span class="about__info-title">Apps</span>
+              <span class="about__info-name">Private and <br> Public Streams</span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Types of Streams and Platforms</h2>
+      <span class="section__subtitle">Where do people access gaming streams? </span>
+      <div class="about-data">
+        <p class="about__description">
+        <div class="center">
+          <p>There are various platforms used in streaming. Audio streaming platforms there are Spotify, iTunes and Deezer. Video streaming platforms, YouTube, Netflix, Facebook. Live streaming, Twitch, Facebook Live, Instagram Live, Twitter Spaces, Vlive.</p>
+        </div>
+
+        <div class="skills__container container grid">
+          <div>
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Types of Streamed Content</h1>
+
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+
+                <div class="skills__titles">
+                  <h3 class="skills__name">Video Games</h3>
+                  <div class="skills__data">
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Movies</h2>
+                    <div class="skills__bar">
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">TV Shows</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Music Videos</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Webcast</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-books skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Where to Watch Streams? </h1>
+
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Facebook</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Youtube</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Twitch</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Netflix</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Spotify</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-chart-line skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Common Platforms for Gaming Streams</h1>
+                  <span class="skills__subtitle"></span>
+
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Twitch</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Facebook Gaming</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h2 class="skills__name">Youtube Gaming</h2>
+                    <div class="skills__bar">
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="qualification section">
+      <h2 class="section__title">What is a Good Gaming Stream?</h2>
+      <span class="section__subtitle">Chracteristics</span>
+
+      <div class="qualification__container container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target='#certificates'>
+            <i class="uil uil-award qualification__icon"></i>
+            As a Streamer,
+          </div>
+
+          <div class="qualification__button button--flex" data-target='#qualifications'>
+            <i class="uil uil-medal qualification__icon"></i>
+            Qualities
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <div class="qualification__content qualification__active" data-content id="certificates">
+
+            <div class="qualification__data">
+              <div>
+                <h3 class="certification__title">Keep your Audience Engaged</h3>
+                <span class="qualification__subtitle">Keeping a conversation flowing goes a long way in keeping your audience engaged</span>
+                <div class="qualification__calendar">
+
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <div class="qualification__data">
+              <div>
+                <h3 class="certification__title">Be Creative</h3>
+                <span class="qualification__subtitle">Being creative in your streams and how you present it. Viewers like it when they see something eye-catching. </span>
+                <div class="qualification__calendar">
+
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <div class="qualification__data">
+              <div>
+                <h3 class="certification__title">Use Social Networks</h3>
+                <span class="qualification__subtitle">Using social networks can help you connect more with your viewers and let them get to know you more. </span>
+                <div class="qualification__calendar">
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div>
+
+        </div>
+      </div>
+
+      </div>
+      </div>
+
+      <div class="qualification__content" data-content id="qualifications">
+        <div class="qualification__data">
+          <div></div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
+
+          <div>
+            <h3 class="qualification__title">Honesty</h3>
+            <span class="qualification__subtitle">Being honest at all times even during streams is a must. We make sure the streamer we are watching does not promote false information. </span>
+            <div class="qualification__calendar">
+            </div>
+          </div>
+        </div>
+
+        <div class="qualification__data">
+          <div></div>
+          <div>
+            <span class="qualification__rounder"></span>
+          </div>
+          <div>
+            <h3 class="qualification__title">Respect and Consistency</h3>
+            <span class="qualification__subtitle">Respect should be practiced because streaming should be a safe space for everyone. Consistency is to show the audience how consistent you are with your goal in the stream. </span>
+
+            <div class="qualification__calendar">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+    </section>
+
+    <section class="services section" id="services">
+      <h2 class="section__title">Need of Viewers</h2>
+      <span class="section__subtitle" id="section__sub">Why Do People Watch Gaming Streams? </span>
+
+      <div class="services__container container grid">
+
+        <div class="services__content">
+          <div>
+            <i class="uil uil-arrow services__icon"></i>
+
+            <h3 class="services__title">To Relieve <br> Stress</h3>
+          </div>
+
+          <span class="button button--flex button--small button--link services__button">
+            View More
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">Streams Serve as Their Stress Relievers</h4>
+              <i class="uil uil-times services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>People find comfort in watching their favorite streamer. </p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Whether it was a stressful or normal day, viewers find themselves watching stress to calm their nerves.</p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Some streams have a cool and calm ambiance and some viewers long for that.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="services__content">
+          <div>
+
+            <i class="uil uil-user-circle services__icon"></i>
+
+            <h3 class="services__title">Improve and <br> Learn New Skills</h3>
+          </div>
+
+          <span class="button button--flex button--small button--link services__button">
+            View More
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title"> They Watch Streams to Improve Gaming Skills </h4>
+              <i class="uil uil-times services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Viewers watch gaming streams in order to improve their gaming capabilities in a game. </p>
+                </li>
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>People run to watch streamers to know their gameplay and learn from them.</p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="services__content">
+          <div>
+            <i class="uil uil-apps services__icon"></i>
+
+            <h3 class="services__title">For <br> Entertainment</h3>
+          </div>
+
+          <span class="button button--flex button--small button--link services__button">
+            View More
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">People Watch Streams for Entertainment and<br> to Fight Boredom</h4>
+              <i class="uil uil-times services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>One of the most important things is the streamer's personality. If viewers like the streamer's personality, they get entertained and can't get enough.</p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>They get entertained because its almost liek one is watching a reality TV show. </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="services__content">
+          <div>
+            <i class="uil uil-desktop-alt services__icon"></i>
+
+            <h3 class="services__title">They Feel Connected <br> to a Community</h3>
+          </div>
+
+          <span class="button button--flex button--small button--link services__button">
+            View More
+            <i class="uil uil-arrow-right button__icon"></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <h4 class="services__modal-title">They Feel Like they are in a Community </h4>
+              <i class="uil uil-times services__modal-close"></i>
+
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Aside from plainly watching the streamer, fanbase can be someone a streamer can connect with. </p>
+                </li>
+
+                <li class="services__modal-service">
+                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <p>Since streams are like interactions, viewers get to interact and they would feel a sense of belonging or connection with the people who have same interests as them.</p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Viewer Analysis</h2>
+      <span class="section__subtitle">Who are These Audiences that Watch Gaming Streams?</span>
+
+      <div class="portfolio__container container">
+
+        <div class="portfolio__content grid">
+          <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <h3 class="portfolio__title"> </h3>
+            <p class="portfolio__description">With the eSports industry becoming an increasingly important part of the entertainment sector, players get to compete with each other individually or in teams. According to a survey conducted by <a href="https://www.statista.com/statistics/1128666/live-video-games-streams-countries/">statista.com</a>
+              , ages around 16-64 years old watch live streams of video games worldwide, as of July 2019.
+            </p>
+            <p style="font-size: 20px;"> Worldwide, the Philippines has the highest number of people who watch these gaming live streams (49%). Followed by Indonesia (40%), India (39%), China (38%), Thailand (37%). Along with Switzerland (8%) being the lowest.
+            </p>
+            <a href="https://www.statista.com/statistics/1128666/live-video-games-streams-countries/" class="button button--flex button--small portfolio__button">
+              Explore
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="project section">
+      <div class="project__bg">
+
+      </div>
+      <div class="project__container container grid">
+        <div class="project__data">
+          <h2 class="project__title">Let's chat!</h2>
+          <p class="project__description">Get in contact with us if you are interested in working together!</p>
+          <a href="#contact" class="button button--flex button--white">
+            Contact Us
+            <i class="uil uil-message project__icon button__icon"></i>
+          </a>
+        </div>
+
+        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=693&q=80" class="project__img">
+      </div>
+
+    </section>
+
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Us</h2>
+      <span class="section__subtitle">Get in Touch</span>
+      <div class="contact__container container grid">
+
+        <div class="contact__information">
+          <i class="uil uil-envelope contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Email Us</h3>
+            <span class="contact__subtitle">admissions@apecschools.edu.ph
+            </span>
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-location-point contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Location</h3>
+            <span class="contact__subtitle">APEC Schools - Marikina Heights</span>
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-instagram-alt contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Direct Message</h3>
+            <span class="contact__subtitle">APEC Schools</span>
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-twitter contact__icon"></i>
+          <div>
+            <h3 class="contact__title">Send a Tweet</h3>
+            <span class="contact__subtitle">APEC Schools</span>
+          </div>
+        </div>
+
+    </section>
+
+    <section>
+
+      <div>
+        <form class="connect" action="https://formsubmit.co/rach-mcdonald@outlook.com" method="POST">
+          <label class="custom-field">
+            <input type="hidden" name="_subject" value="New Email!">
+            <input type="email" required />
+            <span class="placeholder">Email Address</span>
+          </label>
+          <input type="hidden" name="_next" value="https://rachelmcdonald.co/thankyou.html">
+          <label class="custom-field">
+            <input type="text" required />
+            <span class="placeholder">Write your message here</span>
+          </label>
+          <button class="button button--flex button--white" id="connect-btn" type="submit">Send<i class="uil uil-message button__icon"></i></button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">GRADE 10-A-PASSION-7 GROUP 6
+          </h1>
+          <span class="footer__subtitle">Finding a Need in Streaming</span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#portfolio" class="footer__link">Viewer Analysis</a>
+          </li>
+          <li>
+            <a href="#services" class="footer__link">Need of Viewers</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">About Us</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.twitch.tv/" target="_blank" class="home__social-icon">
+            <i class="fa fa-twitch" style="font-size:28px"></i>
+          </a>
+
+          <a href="https://www.facebook.com/gaming/" target="_blank" class="home__social-icon">
+            <span class="iconify" data-icon="mdi:facebook" style="font-size:30px"></span>
+          </a>
+
+          <a href="https://www.youtube.com/" target="_blank" class="home__social-icon">
+            <i class="fa fa-youtube-play" style="font-size:28px"></i>
+          </a>
+          </a>
+
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169;APEC Schools</p>
+    </div>
+  </footer>
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+  padding: 100px 0;
+}
+
+@-webkit-keyframes fade {
+  50% {
+    margin: 0 30%;
+    height: 2px;
+  }
+}
+hr {
+  border: 0;
+  height: 6px;
+  margin: 0 10%;
+  border-radius: 50%;
+  -webkit-filter: blur(2px);
+  -webkit-filter: drop-shadow(0 0 3px #ff3333);
+  background: #e60000;
+  -webkit-animation: fade 4500ms ease-in-out infinite;
+}
