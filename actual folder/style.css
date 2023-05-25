@@ -20,6 +20,7 @@ html {
   --clr-secondary: #a240a2;
   --clr-dark: white;
 }
+
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3rem;
